@@ -1,0 +1,7 @@
+.point:hover {
+    transform: scale(1.1);
+    background-color: coral;
+  }
+  .point {
+    transition: transform 0.5s;
+}

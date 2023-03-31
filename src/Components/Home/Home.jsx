@@ -5,6 +5,7 @@ import Skill from '../Skill/skill.jsx'
 import Project from '../Project/project.jsx'
 import Footer from '../Footer/footer'
 import Contact from '../Contact/Contact.jsx'
+import Coding from '../Skill/CodingProfile.jsx'
 
 const Home =()=>{
 
@@ -15,8 +16,9 @@ const Home =()=>{
      <Contact></Contact>
      <Project></Project>
      <Skill></Skill>
-    
+     <Coding></Coding>
      <Footer></Footer>
+
      
      </>
 

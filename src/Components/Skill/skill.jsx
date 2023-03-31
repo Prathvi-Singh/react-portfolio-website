@@ -6,15 +6,15 @@ const Skill=()=>{
      return (
        
         <>
-        <div class="container bg-dark mb-5 rounded">
+        <div class="container bg-dark mb-5 rounded card">
     <h1 class="font-weight-bold text-center text-light pt-3">Skill</h1>
     <hr class="w-25 mx-auto pt-5"/>
      
     <div class="container ">
 
-      <div class="row pr-4 pb-5">
-          <div class="col-lg-4 col-md-4 col-12">
-              <div class="card ml-5 mb-5" style={{width: "18rem"}}>
+      <div class="row pb-5 d-flex justify-content-around">
+          {/* <div class="col-lg-4 col-md-4 col-12"> */}
+              <div class="card  mb-5" style={{width: "18rem"}}>
                  
                   <div class="card-body">
                     <h5 class="card-title">Front End</h5>
@@ -27,10 +27,10 @@ const Skill=()=>{
                 
                   </div>
                 </div>
-          </div>
+          {/* </div> */}
           
-          <div class="col-lg-4 col-md-4 col-12">
-              <div class="card ml-5 mb-5" style={{width: "18rem"}}>
+          {/* <div class="col-lg-4 col-md-4 col-12"> */}
+              <div class="card  mb-5" style={{width: "18rem"}}>
                  
                   <div class="card-body">
                     <h5 class="card-title">BACK END</h5>
@@ -43,9 +43,9 @@ const Skill=()=>{
                     <button type="button" class="btn btn-outline-secondary">Mongoose</button>
                   </div>
                 </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-12">
-              <div class="card ml-5 mb-5" style={{width: "18rem"}}>
+          {/* </div> */}
+          {/* <div class="col-lg-4 col-md-4 col-12"> */}
+              <div class="card mb-5" style={{width: "18rem"}}>
                  
                   <div class="card-body">
                     <h5 class="card-title">Others</h5>
@@ -62,7 +62,7 @@ const Skill=()=>{
                     <button type="button" class="btn btn-outline-info mx-2 my-3">Matplotlib</button>
                   </div>
                 </div>
-          </div>
+          {/* </div> */}
       </div>
     </div>
  

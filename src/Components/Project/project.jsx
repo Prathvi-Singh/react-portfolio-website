@@ -2,18 +2,19 @@ import React from 'react';
 import Pic1 from '../../images/pic1.png'
 import Pic2 from '../../images/pic2.png'
 import Blogapp from '../../images/blogapp.png' 
+import './project.css'
 
 const Project = () =>{
     return (
       
         <>
-        <div class="container-fluid bg-light my-5">
+        <div class="container-fluid bg-light my-5 card">
     <h1 class="font-weight-bold text-dark text-center mt-5">Projects</h1> 
     <hr class="w-25 mx-auto pt-5"/>
 
-    <div class="row pl-5 pb-5">
-        <div class="col-lg-4 col-md-4 col-12 mt-3">
-            <div class="card" style={{width: "18rem"}}>
+    <div class="row  pb-5 d-flex justify-content-around">
+        {/* <div class="col-lg-4 col-md-4 col-12 mt-3"> */}
+            <div class="card mt-4" style={{width: "18rem"}}>
                 <img class="card-img-top" src={Pic1} alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title">Website(also work as complain box)</h5>
@@ -21,10 +22,10 @@ const Project = () =>{
                   <a href="#" class="btn btn-primary">VIEW</a>
                 </div>
               </div>
-        </div>
+        {/* </div> */}
 
-        <div class="col-lg-4 col-md-4 col-12 mt-5">
-            <div class="card" style={{width: "18rem"}}>
+        {/* <div class="col-lg-4 col-md-4 col-12 mt-5"> */}
+            <div class="card mt-4" style={{width: "18rem"}}>
                 <img class="card-img-top" src={Pic2} alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title">Weather app</h5>
@@ -33,10 +34,10 @@ const Project = () =>{
                   <a href="#" class="btn btn-primary">VIEW</a>
                 </div>
               </div>
-        </div>
+        {/* </div> */}
 
-        <div class="col-lg-4 col-md-4 col-12 mt-5">
-            <div class="card "  style={{width: "18rem"}}>
+        {/* <div class="col-lg-4 col-md-4 col-12 mt-5"> */}
+            <div class="card mt-4"  style={{width: "18rem"}}>
                 <img class="card-img-top" src={Blogapp} alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title">Blogapp</h5>
@@ -46,7 +47,7 @@ const Project = () =>{
                 </div>
               </div>
         </div>
-    </div>
+    {/* </div> */}
 
     
 

@@ -15,7 +15,7 @@ function Navbar(){
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link" href="https://leetcode.com/Prathvi_Singh/">Leetcode</a>
             </li>
             <li class="nav-item">
@@ -23,7 +23,7 @@ function Navbar(){
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.codechef.com/users/prathvi_1604">CodeChef</a>
-            </li>
+            </li> */}
           
           </ul>
           <form class="form-inline my-2 my-lg-0">
