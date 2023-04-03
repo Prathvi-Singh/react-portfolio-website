@@ -32,7 +32,7 @@ const Project = () =>{
                   <h5 class="card-title">Weather app</h5>
                   <p class="card-text">JS | Express.js | hbs | CSS | HTML | Boostrap | Weather api | Fontawesome</p>
                   <p class="card-text"> It fetch the current weather information from free Api</p>
-                  <a href="#" class="btn btn-primary">VIEW</a>
+                  <a href="https://github.com/Prathvi-Singh/Weather-App" class="btn btn-primary">VIEW</a>
                 </div>
               </div>
         {/* </div> */}
