@@ -20,7 +20,7 @@ const Project = () =>{
                 <div class="card-body">
                   <h5 class="card-title">Website(also work as complain box)</h5>
                   <p class="card-text">It is give information about collage like about club coordinators,sport coordinator ,department information</p>
-                  <a href="#" class="btn btn-primary">VIEW</a>
+                  <a href="https://github.com/Prathvi-Singh/Django-project" class="btn btn-primary">VIEW</a>
                 </div>
               </div>
         {/* </div> */}
