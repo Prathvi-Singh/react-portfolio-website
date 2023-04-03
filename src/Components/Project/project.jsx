@@ -2,6 +2,7 @@ import React from 'react';
 import Pic1 from '../../images/pic1.png'
 import Pic2 from '../../images/pic2.png'
 import Blogapp from '../../images/blogapp.png' 
+import Course from '../../images/course.jpg'
 import './project.css'
 
 const Project = () =>{
@@ -46,8 +47,22 @@ const Project = () =>{
                   <a href="https://eloquent-bublanina-811636.netlify.app/" class="btn btn-primary">VIEW</a>
                 </div>
               </div>
+
+
+              <div class="card mt-4"  style={{width: "18rem"}}>
+                <img class="card-img-top" src={Course} alt="Card image cap"/>
+                <div class="card-body">
+                  <h5 class="card-title">CourseManagement</h5>
+                  <p class="card-text">React | Node.js | Express.js | Mongodb | HTML | CSS | boostrap  </p>
+                  <p class="card-text">Any Institute can use to manage the courses , grade for the students  </p>
+                  <a href="https://ps-coursemanagement.netlify.app/" class="btn btn-primary">VIEW</a>
+                </div>
+              </div>
+
         </div>
     {/* </div> */}
+
+    
 
     
 

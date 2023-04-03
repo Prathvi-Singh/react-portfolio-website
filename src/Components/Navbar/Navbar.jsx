@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Navbar(){
 
@@ -14,6 +15,9 @@ function Navbar(){
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/about">About<span class="sr-only">(current)</span></a>
             </li>
             {/* <li class="nav-item">
               <a class="nav-link" href="https://leetcode.com/Prathvi_Singh/">Leetcode</a>
