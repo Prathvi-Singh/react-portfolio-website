@@ -44,7 +44,7 @@ const Project = () =>{
                   <h5 class="card-title">Blogapp</h5>
                   <p class="card-text">React | Node.js | Express.js | Mongodb | HTML | CSS | boostrap  </p>
                   <p class="card-text">Here you can write blog relative to different topic like movies , education etc  </p>
-                  <a href="https://eloquent-bublanina-811636.netlify.app/" class="btn btn-primary">VIEW</a>
+                  <a href="https://ps-blogapp.netlify.app/" class="btn btn-primary">VIEW</a>
                 </div>
               </div>
 
