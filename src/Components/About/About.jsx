@@ -6,12 +6,12 @@ const About=()=>{
    
        <>
        
-       <div class="card container mt-5">
-  <h5 class="card-header">About me</h5>
-  <div class="card-body card">
-    <h5 class="card-title">Prathvi Singh</h5>
-    <h5 class="card-title">Devki Nagar , Jalesar , Firozabad </h5>
-    <p class="card-text ">
+       <div className="card container mt-5">
+  <h5 className="card-header">About me</h5>
+  <div className="card-body card">
+    <h5 className="card-title">Prathvi Singh</h5>
+    <h5 className="card-title">Devki Nagar , Jalesar , Firozabad </h5>
+    <p className="card-text ">
     I am Prathvi Singh , 3rd year student of CSE Department of Indian Institute of Information Technology Design and Manufacturing, Kurnool, Andhra Pradesh. I like to do Coding and Consistently active on different Coding Platform  and  experience of developing web application from ground to up.
 
    <br></br>

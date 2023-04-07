@@ -11,15 +11,17 @@ const Home =()=>{
 
     return (
      <>
-     <Navbar></Navbar>
+      <Navbar></Navbar>
+     <div className="container-fluid">
+    
      <Intro></Intro>
      <Contact></Contact>
      <Project></Project>
      <Skill></Skill>
      <Coding></Coding>
-     <Footer></Footer>
-
      
+     </div>
+     <Footer></Footer>
      </>
 
     )

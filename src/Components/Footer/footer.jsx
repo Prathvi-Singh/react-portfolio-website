@@ -5,7 +5,7 @@ const Footer = () =>{
     return (
 
      <>
-    <div class="container-fluid bg-dark text-light text-center" style={{height:"70px"}} >
+    <div className="container-fluid bg-dark text-light text-center" style={{height:"70px"}} >
     prathvisingh@1604
    
    </div>
